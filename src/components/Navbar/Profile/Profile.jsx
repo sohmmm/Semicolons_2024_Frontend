@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import style from "./Profile.module.css";
 
 function Profile() {
-    const [profile, setProfile] = useState(true);
+    const [profile, setProfile] = useState(false);
 
     function handleProfile() {
         setProfile(pre => !pre)
