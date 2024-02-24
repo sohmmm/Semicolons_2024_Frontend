@@ -4,6 +4,7 @@ import Bargraph from '../Bargraph/Bargraph'
 import Topbar from "./Topbar/Topbar";
 import BestSellingCard from "./Card/BestSellingCard";
 import MostFrequentCustomer from "./Card/MostFrequentCustomer";
+import Cardrow from "../Cardrow/Cardrow";
 
 function Dashboard() {
     return (
@@ -21,6 +22,7 @@ function Dashboard() {
             <div className="w-[50%]">
                 <MostFrequentCustomer title={"Most Frequent Customers"} />
             </div>
+            <Cardrow/>
         </div>
     );
 }
