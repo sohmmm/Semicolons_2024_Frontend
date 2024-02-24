@@ -3,7 +3,7 @@ import React from "react";
 
 const Card = ({title,count,img}) => {
   return (
-    <div className="w-[33%] bg-slate-50 rounded-xl m-5 py-4">
+    <div className="w-[33%] bg-slate-50 rounded-xl m-5 py-4 bg-white">
       <div className="buttons flex py-2">
         <div className="bg-[#E89058] rounded-r-[10px]  w-[5%] h-9"></div>
         <div className="bg-[#E89058B2] rounded  ml-5 w-[12%] m-auto">

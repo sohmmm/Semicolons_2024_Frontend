@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import PageNotFound from "./pages/PageNotFound";
 import AppProvider from "./context/AppContext";
 import Dashboard from "./components/Dashboard/Dashboard";
+import Purchase from "./components/Inventory/Purchase";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/purchase" element={<Purchase />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>

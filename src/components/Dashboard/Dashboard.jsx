@@ -10,8 +10,8 @@ function Dashboard() {
     return (
         <div>
             <Topbar title="Dashboard" />
-            <div className="flex">
-                <div className="flex justify-center items-center w-[50%]">
+            <div className="flex h-[100%]">
+                <div className="flex justify-center items-center w-[50%] bg-white rounded-[10px]">
                     <Doughnut />
                     <Bargraph />
                 </div>
@@ -20,7 +20,7 @@ function Dashboard() {
                 </div>
             </div>
             <Cardrow/>
-            <div className="w-[50%]">
+            <div className="w-[50%] h-[100%]">
                 <MostFrequentCustomer title={"Most Frequent Customers"} />
             </div>
         </div>

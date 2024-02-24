@@ -15,7 +15,7 @@ function MostFrequentCustomer({ title }) {
     }, []);
 
     return (
-        <div className={`${style.container} rounded-[10px] bg-gradient-to-br from-orange-200`}>
+        <div className={`${style.container} rounded-[10px] bg-gradient-to-br from-orange-200 h-[100%]`} >
             <div className="flex justify-between grow">
                 <p>{title}</p>
                 <Link to={"/most-frequent-customer"} className="text-sm text-orange-400">

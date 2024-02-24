@@ -39,7 +39,7 @@ export default function DoughNut() {
 
   return (
     <>
-      <div className="flex w-[50%] justify-center">
+      <div className="flex w-[50%] justify-center px-[45px]">
         <Doughnut data={data} options={options} />
       </div>
     </>
