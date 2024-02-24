@@ -24,7 +24,7 @@ function Navbar() {
                 {/* mid */}
                 <div className={style.navbar_container_mid}>
                     {links.map((item, index) => (
-                        <div  key={index}>
+                        <div key={index}>
                             <Link to={item.link}>{item.name}</Link>
                         </div>
                     ))}
@@ -32,7 +32,9 @@ function Navbar() {
 
                 {/* right */}
                 <div>
-                    <div>Profile</div>
+                    <div>
+                        <Link to="/profile">Profile</Link>
+                    </div>
                 </div>
             </div>
         </div>
