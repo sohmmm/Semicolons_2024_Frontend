@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 function Navbar() {
     const links = [
-        { name: "Dashboard", link: "/dashboard" },
+        { name: "Dashboard", link: "/" },
         { name: "Inventory", link: "/inventory" },
         { name: "Sales", link: "/sales" },
         { name: "Purchase", link: "/purchase" },

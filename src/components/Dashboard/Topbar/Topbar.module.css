@@ -1,5 +1,10 @@
 .topbar {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 10px 50px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
 }

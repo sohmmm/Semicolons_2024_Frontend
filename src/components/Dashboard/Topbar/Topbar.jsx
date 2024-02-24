@@ -7,10 +7,12 @@ import Button from '../../Button/Button';
 function Topbar({ title }) {
     return (
         <div className={style.topbar}>
-            <div>{title}</div>
-            <Button name={"Quick Action"} />
+            <div className={style.title}>{title}</div>
+            <div>
+                <Button name={"Quick Action"} />
+            </div>
         </div>
-    )
+    );
 }
 
 export default Topbar;
