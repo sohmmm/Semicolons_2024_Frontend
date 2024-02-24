@@ -19,10 +19,10 @@ function Dashboard() {
                     <BestSellingCard title={"Best Selling Products"} />
                 </div>
             </div>
+            <Cardrow/>
             <div className="w-[50%]">
                 <MostFrequentCustomer title={"Most Frequent Customers"} />
             </div>
-            <Cardrow/>
         </div>
     );
 }
