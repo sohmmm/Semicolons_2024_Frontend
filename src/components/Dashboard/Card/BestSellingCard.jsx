@@ -20,7 +20,7 @@ function BestSellingCard({ title }) {
       </div>
       <div className="flex flex-col gap-2 text-sm">
         {products.map((product) => (
-          <div className="flex justify-between items-center bg-white rounded-lg px-3 py-1">
+          <div className="flex justify-between items-center bg-white rounded-lg px-3 py-4">
             <img
               src={`images/${product.name}.jpg`}
               className="w-[20%] object-cover rounded-[10px]"
