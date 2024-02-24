@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 import style from "./Navbar.module.css";
 
 import { Link, useNavigate } from "react-router-dom";
+import Profile from "./Profile/Profile";
 
 function Navbar() {
+    const [profile, setProfile] = useState(true );
+
     const links = [
         { name: "Dashboard", link: "/" },
         { name: "Inventory", link: "/inventory" },
@@ -32,9 +35,7 @@ function Navbar() {
 
                 {/* right */}
                 <div>
-                    <div>
-                        <Link to="/profile">Profile</Link>
-                    </div>
+                    <Profile />
                 </div>
             </div>
         </div>
