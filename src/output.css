@@ -547,9 +547,9 @@ video {
   --shadow-light-color: #fff;
   --main-bg-color: #FFFBF3;
   --box-shadow: 1rem 1rem 1rem var(--shadow-dark-color),
-        -1rem -1rem 1rem var(--shadow-light-color);
+    -1rem -1rem 1rem var(--shadow-light-color);
   --box-shadow-2: 0rem 0rem 0rem var(--shadow-dark-color),
-        -.3rem -.3rem 1rem var(--shadow-dark-color)
+    -.3rem -.3rem 1rem var(--shadow-dark-color)
 
 }
 
@@ -583,9 +583,9 @@ video {
   --main-bg-color: #FFFBF3;
   --overlay: #2323255e;
   --box-shadow: 1px 1px 2px #FFDF2B,
-        -1px -1px 2px #FFDF2B;
+    -1px -1px 2px #FFDF2B;
   --box-shadow-2: 1px 1px 2px #FFDF2B,
-        -1px -1px 2px #FFDF2B;
+    -1px -1px 2px #FFDF2B;
 }
 
 /* //THEME 3 */
@@ -809,6 +809,7 @@ a:active {
 }
 
 ::-webkit-scrollbar {
+  display: none;
   width: 1rem;
   border: 1px solid var(--main-bg-color);
 }

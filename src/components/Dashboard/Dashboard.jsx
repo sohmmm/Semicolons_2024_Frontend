@@ -5,6 +5,7 @@ import Topbar from "./Topbar/Topbar";
 import BestSellingCard from "./Card/BestSellingCard";
 import MostFrequentCustomer from "./Card/MostFrequentCustomer";
 import Cardrow from "../Cardrow/Cardrow";
+import Linegraph from "../Linegraph/Linegraph";
 
 function Dashboard() {
     return (
@@ -22,6 +23,9 @@ function Dashboard() {
             <Cardrow/>
             <div className="w-[50%] h-[100%]">
                 <MostFrequentCustomer title={"Most Frequent Customers"} />
+            </div>
+            <div className="w-[60%] h-[50vh]">
+            <Linegraph/>
             </div>
         </div>
     );
