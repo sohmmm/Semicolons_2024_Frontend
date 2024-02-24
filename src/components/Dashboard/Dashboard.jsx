@@ -4,6 +4,7 @@ import Bargraph from '../Bargraph/Bargraph'
 import Topbar from "./Topbar/Topbar";
 import BestSellingCard from "./Card/BestSellingCard";
 import Cardrow from "../Cardrow/Cardrow";
+import Linegraph from "../Linegraph/Linegraph";
 
 function Dashboard() {
     return (
@@ -20,6 +21,9 @@ function Dashboard() {
                 {/* <Card/> */}
             </div>
             <Cardrow/>
+            <div className="w-[60%] h-[50vh]">
+            <Linegraph/>
+            </div>
         </div>
     );
 }
