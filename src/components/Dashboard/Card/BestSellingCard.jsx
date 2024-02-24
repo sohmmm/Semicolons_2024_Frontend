@@ -12,7 +12,7 @@ function BestSellingCard({ title }) {
     ];
 
     return (
-        <div className={style.container}>
+        <div className={`${style.container} bg-gradient-to-br from-orange-200`}>
             <div className="flex justify-between grow">
                 <p>{title}</p>
                 <Link to={"/best-selling-products"} className="text-sm text-orange-400">View more -</Link>
