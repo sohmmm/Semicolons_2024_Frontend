@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import PageNotFound from "./pages/PageNotFound";
 import Home from "./pages/Home";
 import AppProvider from "./context/AppContext";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
