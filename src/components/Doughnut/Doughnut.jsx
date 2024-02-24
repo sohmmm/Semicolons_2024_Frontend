@@ -39,7 +39,7 @@ export default function DoughNut() {
 
   return (
     <>
-      <div className="flex w-[20%]">
+      <div className="flex w-[50%]">
         <Doughnut data={data} options={options} />
       </div>
     </>

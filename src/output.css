@@ -795,7 +795,7 @@ a:hover {
 }
 
 a:active {
-  font-size: 110%;
+  /* font-size: 105%; */
 }
 
 * {

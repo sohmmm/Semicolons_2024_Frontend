@@ -8,7 +8,7 @@ const Bargraph = ({  }) => {
         objFour:50,
     }
   return (
-    <div className="p-2 flex flex-col">
+    <div className="p-2 flex flex-col w-[50%]">
       <div className="my-2 flex flex-col">
         <p className="title font-normal mb-1   text-[12px]">HIGH STOCK PRODUCT</p>
         <div className={`line w-[${values.objOne}px] h-2 bg-[#80B357] rounded-sm `}></div>

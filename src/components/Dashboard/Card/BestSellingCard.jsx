@@ -19,16 +19,16 @@ function BestSellingCard({ title }) {
             </div>
             <div className="flex flex-col gap-2 text-sm">
                 {products.map((product) => (
-                    <div className="flex flex-row justify-between bg-white rounded-lg items-center px-3 py-1">
+                    <div className="flex justify-between bg-white rounded-lg items-center px-3 py-1">
                         <img
                             src={`images/${product.name}.jpg`}
                             className="h-16 w-16 object-cover rounded"
                         />
-                        <div>
-                            <div>
+                        <div className="text-left flex flex-col">
+                            
                                 <p>{product.name}</p>
                                 <p>Category: {product.category}</p>
-                            </div>
+                            
                         </div> 
                         <div>
                             <p>Stocked Product: {product.stock}</p>
