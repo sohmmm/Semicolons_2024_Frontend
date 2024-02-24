@@ -3,7 +3,7 @@ import Doughnut from '../Doughnut/Doughnut'
 import Bargraph from '../Bargraph/Bargraph'
 import Topbar from "./Topbar/Topbar";
 import BestSellingCard from "./Card/BestSellingCard";
-import Card from "../Cardrow/Card/Card";
+import Cardrow from "../Cardrow/Cardrow";
 
 function Dashboard() {
     return (
@@ -19,6 +19,7 @@ function Dashboard() {
                 </div>
                 {/* <Card/> */}
             </div>
+            <Cardrow/>
         </div>
     );
 }
