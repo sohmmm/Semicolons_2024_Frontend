@@ -4,7 +4,6 @@ import "./styles/global.css";
 
 import Navbar from "./components/Navbar/Navbar";
 import PageNotFound from "./pages/PageNotFound";
-import Home from "./pages/Home";
 import AppProvider from "./context/AppContext";
 import Dashboard from "./components/Dashboard/Dashboard";
 
