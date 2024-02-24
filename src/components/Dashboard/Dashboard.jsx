@@ -3,7 +3,7 @@ import Doughnut from '../Doughnut/Doughnut'
 import Bargraph from '../Bargraph/Bargraph'
 import Topbar from "./Topbar/Topbar";
 import BestSellingCard from "./Card/BestSellingCard";
-import Card from "../Cardrow/Card/Card";
+import MostFrequentCustomer from "./Card/MostFrequentCustomer";
 
 function Dashboard() {
     return (
@@ -11,13 +11,15 @@ function Dashboard() {
             <Topbar title="Dashboard" />
             <div className="flex">
                 <div className="flex justify-center items-center w-[50%]">
-                <Doughnut/>
-                <Bargraph/>
+                    <Doughnut />
+                    <Bargraph />
                 </div>
                 <div className="w-[50%]">
-                <BestSellingCard title={"Best Selling Products"}/>
+                    <BestSellingCard title={"Best Selling Products"} />
                 </div>
-                {/* <Card/> */}
+            </div>
+            <div className="w-[50%]">
+                <MostFrequentCustomer title={"Most Frequent Customers"} />
             </div>
         </div>
     );
